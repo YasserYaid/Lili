@@ -1,0 +1,69 @@
+﻿@model ReposteriaLili_Front.Models.DTO.CustomerOrderProductResponseDTO
+@{
+    ViewData["Title"] = "CancelarEntrega";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="CancelarEntrega">
+    <div class="container border p-3">
+
+        <div asp-validation-summary="None" class="text-danger"></div>
+
+        <input hidden asp-for="IdOrden" />
+        <input hidden asp-for="IdDireccion" />
+        <input hidden asp-for="IdSucursal" />
+        <input hidden asp-for="IdEmpleado" />
+        <input hidden asp-for="IdTarjeta" />
+        <input hidden asp-for="ImagenIncidenteCliente" />
+        <input hidden asp-for="DescripcionIncidenteCliente" />
+        <input hidden asp-for="EstadoPedido" />
+
+        <div class="row">
+            <h2 class="text-info">Confirmar Entrega</h2>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">NumeroFolio</label>
+                <input asp-for="NumeroFolio" class="form-control" />
+                <span asp-validation-for="NumeroFolio" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Fecha solicitud</label>
+                <input asp-for="ImporteTotalOrden" class="form-control" />
+                <span asp-validation-for="ImporteTotalOrden" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Fecha solicitud</label>
+                <input asp-for="FechaSolicitud" class="form-control" />
+                <span asp-validation-for="FechaSolicitud" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Fecha Entrega</label>
+                <input asp-for="FechaEntrega" class="form-control" />
+                <span asp-validation-for="FechaEntrega" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 d-md-block mt-2">
+            <button type="submit" class="btn btn-primary">Confirmar</button>
+            <a asp-controller="ClientePedidos" asp-action="ListarPedidosSolicitados" class="btn btn-success">Regresar</a>
+        </div>
+
+    </div>
+
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

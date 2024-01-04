@@ -1,0 +1,157 @@
+﻿@model ReposteriaLili_Front.Models.ViewModels.SucursalViewModel;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Registrar Sucursal";
+}
+
+<form method="post">
+    <div style="padding-left:15%; padding-right:15%; padding-bottom:inherit.4rem;">
+        <div class="row border-0">
+            <!--Con el model only se indica que solo todas las validaciones que tenga el modelo de c# se mostrara-->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        </div>
+
+        @if (Model.IdSucursal != 0)
+        {
+            // AL estar unidos el update y el insert con esto se determina que titulo poner siempre se debe pasar el id y ocultarlo del usuario
+            titulo = "ActualizarOrden Sucursal";
+            <input type="hidden" asp-for="IdSucursal" id="idSucursal" />
+        }
+        <div class="col-12 border-bottom p-0">
+            <h2 class="text-primary">@titulo</h2>
+        </div>
+
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Estado de la republica</label>
+                <input type="text" asp-for="Estado" class="form-control" placeholder="Estado de la republica" id="Estado" />
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Ciudad</label>
+                <input type="text" asp-for="Ciudad" class="form-control" placeholder="Ciudad" id="Ciudad" />
+                <span asp-validation-for="Ciudad" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Municipio</label>
+                <input type="text" asp-for="Municipio" class="form-control" placeholder="Municipio" id="Municipio" />
+                <span asp-validation-for="Municipio" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Calle</label>
+                <input type="text" asp-for="Calle" class="form-control" placeholder="Calle" id="Calle" />
+                <span asp-validation-for="Calle" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Numero</label>
+                <input type="number" asp-for="Numero" class="form-control" placeholder="Numero del establecimiento" id="Numero" />
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Colonia</label>
+                <input type="text" asp-for="Colonia" class="form-control" placeholder="Colonia" id="Colonia" />
+                <span asp-validation-for="Colonia" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Codigo Postal</label>
+                <input type="number" asp-for="CodigoPostal" class="form-control" placeholder="Codigo Postal" id="CodigoPostal" />
+                <span asp-validation-for="CodigoPostal" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Dia laboral inicial</label>
+                <input type="text" asp-for="DiaInicial" class="form-control" placeholder="Dia inicial de jornada laboral" id="DiaInicial" />
+                <span asp-validation-for="DiaInicial" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Dia de cierre laboral</label>
+                <input type="text" asp-for="DiaFinal" class="form-control" placeholder="Dia de cierre de jornada laboral" id="DiaFinal" />
+                <span asp-validation-for="DiaFinal" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Hora de inicio laboral laboral</label>
+                <input type="time" asp-for="HoraInicial" class="form-control" placeholder="Hora que abre el establecimiento" id="HoraInicial" />
+                <span asp-validation-for="HoraInicial" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Hora de cierre laboral</label>
+                <input type="time" asp-for="HoraFinal" class="form-control" placeholder="Hora que cierra el establecimiento" id="HoraFinal" />
+                <span asp-validation-for="HoraFinal" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Nombre comercial</label>
+                <input type="text" asp-for="NombreComercial" class="form-control" placeholder="Nombre comercial" id="NombreComercial" />
+                <span asp-validation-for="NombreComercial" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label asp-for="Latitud" class="form-label"></label>
+                <input asp-for="Latitud" class="form-control">
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label asp-for="Longitud" class="form-label"></label>
+                <input asp-for="Longitud" class="form-control">
+            </div>
+        </div>
+        <div class="card mt-3">
+            <div class="card-header">
+                Seleccione un lugar moviendo el marcador rojo a una ubicacion
+            </div>
+            <div class="card-body contenedor-mapa">
+                <div id="mapa" class="h-100"></div>
+            </div>
+        </div>
+
+        <br />
+        <div>
+            @if (Model.IdSucursal != 0)
+            {
+                <partial name="_BotonesActualizarYRegresar" model="Model.IdSucursal" />
+            }
+            else
+            {
+                <partial name="_BotonesCrearYRegresar" />
+            }
+        </div>
+
+    </div>
+
+
+</form>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/upsertSucursal.css" asp-append-version="true" />
+}
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"/> <!--Con esto se indica que valide los datos desde el cliente sin necesidad de ir al server-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN3vjtO_5CHpPTAIVpygowsC4sjptPESE&libraries=places&callback=&callback=console.debug"></script>
+    <script src="~/js/locationpicker.js"></script>
+    <script src="~/js/upsertSucursal.js"></script>
+}
+

@@ -1,0 +1,36 @@
+[
+  {
+    "calle" : "Las flores",
+    "ciudad" : "Xalapa",
+    "codigoPostal" : "91190",
+    "colonia" : "Las Animas",
+    "diaInicial" : "Lunes",
+    "diaFinal" : "Viernes",
+    "estado" : "Veracruz",
+    "horaInicial" : "9:00",
+    "horaFinal" : "21:00",
+    "latitud" : "",
+    "longitud" : "", 
+    "municipio" : "Xalapa",
+    "nombreComercial" : "Reposteria Lili - Las flores",
+    "numeroDepartamento" : "10",
+    "pais" : "México"
+  },
+  {
+    "calle": "Lucio",
+    "ciudad": "Xalapa",
+    "codigoPostal": "91000",
+    "colonia": "Centro",
+    "diaInicial": "Lunes",
+    "diaFinal": "Domingo",
+    "estado": "Veracruz",
+    "horaInicial": "9:00",
+    "horaFinal": "18:00",
+    "latitud": "",
+    "longitud": "",
+    "municipio": "Xalapa",
+    "nombreComercial": "Reposteria Lili - Lucio",
+    "numeroDepartamento": "20",
+    "pais": "México"
+  }
+]

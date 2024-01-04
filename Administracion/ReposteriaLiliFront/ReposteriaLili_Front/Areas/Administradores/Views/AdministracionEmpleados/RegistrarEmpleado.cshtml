@@ -1,0 +1,105 @@
+﻿@model ReposteriaLili_Front.Models.ViewModels.EmpleadoViewModel
+
+@{
+    ViewData["Title"] = "RegistrarEmpleado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="RegistrarEmpleado">
+    <div class="container border p-3">
+
+        <div asp-validation-summary="None" class="text-danger"></div>
+
+        <div class="row">
+            <h2 class="text-info">Registrar Empleado</h2>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label"> Sucursal </label>
+                <select asp-for="EmpleadocreateDto.IdSucursal" class="form-select" asp-items="@Model.sucursalesDtoList">
+                    <option value="" >--seleccione una sucursal--</option>
+                </select>
+                <span asp-validation-for="EmpleadocreateDto.IdSucursal" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Nombre</label>
+                <input asp-for="EmpleadocreateDto.Nombre" class="form-control" />
+                <span asp-validation-for="EmpleadocreateDto.Nombre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Apellido Paterno</label>
+                <input asp-for="EmpleadocreateDto.ApellidoPaterno" class="form-control" />
+                <span asp-validation-for="EmpleadocreateDto.ApellidoPaterno" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Apellido Materno</label>
+                <input asp-for="EmpleadocreateDto.ApellidoMaterno" class="form-control" />
+                <span asp-validation-for="EmpleadocreateDto.ApellidoMaterno" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Correo</label>
+                <input asp-for="EmpleadocreateDto.Correo" class="form-control" />
+                <span asp-validation-for="EmpleadocreateDto.Correo" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Telefono</label>
+                <input asp-for="EmpleadocreateDto.Telefono" class="form-control" />
+                <span asp-validation-for="EmpleadocreateDto.Telefono" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Nombre de usuario</label>
+                <input asp-for="EmpleadocreateDto.UserName" class="form-control" />
+                <span asp-validation-for="EmpleadocreateDto.UserName" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Cargo</label>
+                <input asp-for="EmpleadocreateDto.Cargo" class="form-control" />
+                <span asp-validation-for="EmpleadocreateDto.Cargo" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Contraseña </label>
+                <input asp-for="EmpleadocreateDto.Contrasena" class="form-control" />
+                <span asp-validation-for="EmpleadocreateDto.Contrasena" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 d-md-block mt-2">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a asp-controller="AdministracionEmpleados" asp-action="ListarEmpleados" class="btn btn-success">Regresar</a>
+        </div>
+
+
+    </div>
+
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

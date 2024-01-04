@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ReposteriaLili_Front.Models.DTO.CustomerOrderProductResponseDTO>
+@{
+    ViewData["Title"] = "ListarPedidosSolicitados";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container p-4 border">
+    <div class="row pb-2">
+        <div class="col">
+            <h1 class="text-primary">Lista de pedidos solicitados</h1>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Ocupantes</th>
+                <th>Tarifa</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.NombreProducto</td>
+                    <td>@item.Precio</td>
+                    <td>@item.CantidadDisponibleTotal</td>
+                    <td>@item.Categoria</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.ImagenUrl</td>
+                    <td>@item.FechaCaducidad</td>
+                    <td>@item.CantidadOrdenada</td>
+                    <td>@item.PrecioParcial</td>
+                    <td>@item.EstadoPedido</td>
+                    <td>
+                        <a asp-controller="ClientePedidos" asp-action="ReportarIncidente" asp-route-idOrden="@item.IdOrden" class="btn btn-success"><i class="bi bi-pencil-square"></i> </a>
+                        <a asp-controller="ClientePedidos" asp-action="CancelarEntrega" asp-route-idOrden="@item.IdOrden" class="btn btn-danger"><i class="bi bi-trash-fill"></i> </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,69 @@
+﻿@model ReposteriaLili_Front.Models.DTO.CustomerOrderProductResponseDTO
+
+@{
+    ViewData["Title"] = "ReportarIncidente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form method="post" enctype="multipart/form-data" asp-action="ReportarIncidente">
+    <div class="container border p-3">
+
+        <div asp-validation-summary="None" class="text-danger"></div>
+
+        <input hidden asp-for="IdOrden" />
+        <input hidden asp-for="IdDireccion" />
+        <input hidden asp-for="IdSucursal" />
+        <input hidden asp-for="IdEmpleado" />
+        <input hidden asp-for="IdTarjeta" />
+        <input hidden asp-for="DescripcionIncidenteRepartidor" />
+        <input hidden asp-for="ImagenIncidenteRepartidor" />
+        <input hidden asp-for="EstadoPedido" />
+        <input hidden asp-for="ImporteTotalOrden" />
+
+        <div class="row">
+            <h2 class="text-info">Reportar incidente</h2>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">NumeroFolio</label>
+                <input asp-for="NumeroFolio" class="form-control" />
+                <span asp-validation-for="NumeroFolio" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Fecha solicitud</label>
+                <input asp-for="FechaSolicitud" class="form-control" />
+                <span asp-validation-for="FechaSolicitud" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Reporte de incidencia</label>
+                <input asp-for="DescripcionIncidenteCliente" class="form-control" />
+                <span asp-validation-for="DescripcionIncidenteCliente" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label>Imagen</label>
+                <input type="file" accept="image/png, image/gif, image/jpeg" name="imagenes" id="imagenId" class="form-control" />
+            </div>
+        </div>
+
+        <div class="d-grid gap-2 d-md-block mt-2">
+            <button type="submit" class="btn btn-primary">Reportar</button>
+            <a asp-controller="ClientePedidos" asp-action="ListarPedidosSolicitados" class="btn btn-success">Regresar</a>
+        </div>
+
+    </div>
+
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

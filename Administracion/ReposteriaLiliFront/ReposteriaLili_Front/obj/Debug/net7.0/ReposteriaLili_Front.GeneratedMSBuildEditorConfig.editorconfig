@@ -1,0 +1,147 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ReposteriaLili_Front
+build_property.RootNamespace = ReposteriaLili_Front
+build_property.ProjectDir = C:\internet\ReposteriaLiliFront\ReposteriaLili_Front\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\internet\ReposteriaLiliFront\ReposteriaLili_Front
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Administradores/Views/AdministracionEmpleados/ListarEmpleados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYWRvcmVzXFZpZXdzXEFkbWluaXN0cmFjaW9uRW1wbGVhZG9zXExpc3RhckVtcGxlYWRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Administradores/Views/AdministracionEmpleados/RegistrarEmpleado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYWRvcmVzXFZpZXdzXEFkbWluaXN0cmFjaW9uRW1wbGVhZG9zXFJlZ2lzdHJhckVtcGxlYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Administradores/Views/AdministracionProductos/ListarInventario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYWRvcmVzXFZpZXdzXEFkbWluaXN0cmFjaW9uUHJvZHVjdG9zXExpc3RhckludmVudGFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Administradores/Views/AdministracionProductos/RegistrarProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYWRvcmVzXFZpZXdzXEFkbWluaXN0cmFjaW9uUHJvZHVjdG9zXFJlZ2lzdHJhclByb2R1Y3Rvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Administradores/Views/Administrador/ListarSucursales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYWRvcmVzXFZpZXdzXEFkbWluaXN0cmFkb3JcTGlzdGFyU3VjdXJzYWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Administradores/Views/Administrador/SucursalUpSert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYWRvcmVzXFZpZXdzXEFkbWluaXN0cmFkb3JcU3VjdXJzYWxVcFNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Administradores/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYWRvcmVzXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Administradores/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYWRvcmVzXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Clientes/Views/ClientePedidos/CancelarEntrega.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50ZXNcVmlld3NcQ2xpZW50ZVBlZGlkb3NcQ2FuY2VsYXJFbnRyZWdhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Clientes/Views/ClientePedidos/ListarPedidosSolicitados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50ZXNcVmlld3NcQ2xpZW50ZVBlZGlkb3NcTGlzdGFyUGVkaWRvc1NvbGljaXRhZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Clientes/Views/ClientePedidos/ReportarIncidente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50ZXNcVmlld3NcQ2xpZW50ZVBlZGlkb3NcUmVwb3J0YXJJbmNpZGVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Clientes/Views/Cliente/ListarProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50ZXNcVmlld3NcQ2xpZW50ZVxMaXN0YXJQcm9kdWN0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Clientes/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50ZXNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Clientes/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ2xpZW50ZXNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Gerentes/Views/Gerente/AsignarRepartidor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VyZW50ZXNcVmlld3NcR2VyZW50ZVxBc2lnbmFyUmVwYXJ0aWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Gerentes/Views/Gerente/ListarPedidosRealizados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VyZW50ZXNcVmlld3NcR2VyZW50ZVxMaXN0YXJQZWRpZG9zUmVhbGl6YWRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Gerentes/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VyZW50ZXNcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Gerentes/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcR2VyZW50ZXNcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Repartidores/Views/Repartidor/ConfirmarEntrega.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVwYXJ0aWRvcmVzXFZpZXdzXFJlcGFydGlkb3JcQ29uZmlybWFyRW50cmVnYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Repartidores/Views/Repartidor/ListarPedidosAsignados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVwYXJ0aWRvcmVzXFZpZXdzXFJlcGFydGlkb3JcTGlzdGFyUGVkaWRvc0FzaWduYWRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Repartidores/Views/Repartidor/ReportarPedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVwYXJ0aWRvcmVzXFZpZXdzXFJlcGFydGlkb3JcUmVwb3J0YXJQZWRpZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Repartidores/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVwYXJ0aWRvcmVzXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Areas/Repartidores/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUmVwYXJ0aWRvcmVzXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/Shared/_BotonesActualizarYRegresar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3RvbmVzQWN0dWFsaXphcllSZWdyZXNhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/Shared/_BotonesCrearYRegresar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3RvbmVzQ3JlYXJZUmVncmVzYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/internet/ReposteriaLiliFront/ReposteriaLili_Front/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pdo4gcq0rg

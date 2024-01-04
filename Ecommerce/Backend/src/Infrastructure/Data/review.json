@@ -1,0 +1,38 @@
+[
+    {
+        "nombre" : "Jaime Tuiz",
+        "rating": 5,
+        "comentario": "Sabe muy rico",
+        "productId": 1
+    },
+    {
+        "nombre" : "Guillermo Suarez",
+        "rating": 5,
+        "comentario": "Mi postre favorito",
+        "productId": 2
+    },
+    {
+        "nombre" : "Carlos ortiz",
+        "rating": 5,
+        "comentario": "No habia probado uno igual",
+        "productId": 3
+    },
+    {
+        "nombre" : "Maria Jimenez",
+        "rating": 5,
+        "comentario": "Me recuerda a los que hacia mi abuelita",
+        "productId": 4
+    },
+    {
+        "nombre" : "Cristobal Dominguez",
+        "rating": 5,
+        "comentario": "Excelente servicio y muy atentos",
+        "productId": 5
+    },
+    {
+        "nombre" : "Karina Martinez",
+        "rating": 5,
+        "comentario": "Su sabor es increible",
+        "productId": 6
+    }
+]

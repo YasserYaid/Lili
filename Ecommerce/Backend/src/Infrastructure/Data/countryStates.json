@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Aguascalientes",
+    "iso2": "AG",
+    "iso3": "AGC"
+  },
+  {
+    "name": "Baja California Norte",
+    "iso2": "CN",
+    "iso3": "BCN"
+  },
+  {
+    "name": "Baja California Sur",
+    "iso2": "CS",
+    "iso3": "BCS"
+  },
+  {
+    "name": "Campeche",
+    "iso2": "CA",
+    "iso3": "CAM"
+  },
+  {
+    "name": "Chiapas",
+    "iso2": "CH",
+    "iso3": "CHI"
+  },
+  {
+    "name": "Chihuahua",
+    "iso2": "HH",
+    "iso3": "CHH"
+  },
+  {
+    "name": "Coahuila",
+    "iso2": "CO",
+    "iso3": "COA"
+  },
+  {
+    "name": "Colima",
+    "iso2": "CM",
+    "iso3": "COL"
+  },
+  {
+    "name": "Ciudad de México",
+    "iso2": "CM",
+    "iso3": "CDM"
+  },
+  {
+    "name": "Durango",
+    "iso2": "DU",
+    "iso3": "DUR"
+  },
+  {
+    "name": "Estado de México",
+    "iso2": "EM",
+    "iso3": "EMX"
+  },
+  {
+    "name": "Guanajuato",
+    "iso2": "GU",
+    "iso3": "GJT"
+  },
+  {
+    "name": "Guerrero",
+    "iso2": "GU",
+    "iso3": "GUE"
+  },
+  {
+    "name": "Hidalgo",
+    "iso2": "HI",
+    "iso3": "HID"
+  },
+  {
+    "name": "Jalisco",
+    "iso2": "JA",
+    "iso3": "JAL"
+  },
+  {
+    "name": "Michoacan",
+    "iso2": "MI",
+    "iso3": "MIC"
+  },
+  {
+    "name": "Morelos",
+    "iso2": "MO",
+    "iso3": "MOR"
+  },
+  {
+    "name": "Nayarit",
+    "iso2": "NA",
+    "iso3": "NAY"
+  },
+  {
+    "name": "Oaxaca",
+    "iso2": "OA",
+    "iso3": "OAX"
+  },
+  {
+    "name": "Puebla",
+    "iso2": "PU",
+    "iso3": "PUE"
+  },
+  {
+    "name": "Queretaro",
+    "iso2": "QU",
+    "iso3": "QUE"
+  },
+  {
+    "name": "Quintana Roo",
+    "iso2": "QR",
+    "iso3": "QRO"
+  },
+  {
+    "name": "San Luis Potosí",
+    "iso2": "SL",
+    "iso3": "SLP"
+  },
+  {
+    "name": "Sinaloa",
+    "iso2": "SI",
+    "iso3": "SIN"
+  },
+  {
+    "name": "Sonora",
+    "iso2": "SO",
+    "iso3": "SON"
+  },
+  {
+    "name": "Tabasco",
+    "iso2": "TB",
+    "iso3": "TAB"
+  },
+  {
+    "name": "Tamaulipas",
+    "iso2": "TM",
+    "iso3": "TMA"
+  },
+  {
+    "name": "Tlaxcala",
+    "iso2": "TL",
+    "iso3": "TLX"
+  },
+  {
+    "name": "Veracruz",
+    "iso2": "VE",
+    "iso3": "VCZ"
+  },
+  {
+    "name": "Yucatan",
+    "iso2": "YU",
+    "iso3": "YUC"
+  },
+  {
+    "name": "Zacatecas",
+    "iso2": "ZC",
+    "iso3": "ZAC"
+  }
+]

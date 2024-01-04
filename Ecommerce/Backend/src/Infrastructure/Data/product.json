@@ -1,0 +1,57 @@
+[
+    {
+        "nombre" : "Buñuelos de manzana",
+        "precio": 70.00,
+        "descripcion": "Paquete de 10 buñuelos hechos con manzana natural",
+        "rating": 5,
+        "vendedor":"Reposteria Lili - Las flores",
+        "stock": 10,
+        "categoryId": 1
+    },
+    {
+        "nombre" : "Coulant de chocolate",
+        "precio": 40.00,
+        "descripcion": "Panecito hecho de chocolate decorado con chocolate liquido Hersheys",
+        "rating": 5,
+        "vendedor":"Reposteria Lili - Las flores",
+        "stock": 30,
+        "categoryId": 1
+    },
+    {
+        "nombre" : "Fondue de chocolate",
+        "precio": 300.00,
+        "descripcion": "Frasco de 500 ml de chocola gourmet de alta calidad",
+        "rating": 5,
+        "vendedor":"Reposteria Lili - Las flores",
+        "stock": 10,
+        "categoryId": 1
+    },
+    {
+        "nombre" : "Hot-Cakes",
+        "precio": 50.00,
+        "descripcion": "Paquete de 3 piezas de hotcakes decorados con miel de maple",
+        "rating": 5,
+        "vendedor":"Reposteria Lili - Las flores",
+        "stock": 30,
+        "categoryId": 1
+    },
+    {
+        "nombre" : "Crepas",
+        "precio": 40.00,
+        "descripcion": "2 Crepas decoradas con nutella, lechera o nieve",
+        "rating": 5,
+        "vendedor":"Reposteria Lili - Las flores",
+        "stock": 10,
+        "categoryId": 1
+    },
+    {
+        "nombre" : "Bizcocho de plátano y nueces",
+        "precio": 120.00,
+        "descripcion": "Panque hecho a base de harina con platano y nuez",
+        "rating": 5,
+        "vendedor":"Reposteria Lili - Las flores",
+        "stock": 10,
+        "categoryId": 1
+    }
+
+]

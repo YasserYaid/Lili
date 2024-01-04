@@ -1,0 +1,89 @@
+﻿@model ReposteriaLili_Front.Models.ViewModels.ProductoViewModel
+
+@{
+    ViewData["Title"] = "RegistrarProductos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data" asp-action="RegistrarProductos">
+    <div class="container border p-3">
+
+        <div asp-validation-summary="None" class="text-danger"></div>
+
+        <div class="row">
+            <h2 class="text-info">Registrar Productos</h2>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label"> Sucursal </label>
+                <select asp-for="productoCreateDto.IdSucursal" class="form-select" asp-items="@Model.sucursalesDtoList">
+                    <option value="">--seleccione una sucursal--</option>
+                </select>
+                <span asp-validation-for="productoCreateDto.IdSucursal" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Nombre</label>
+                <input asp-for="productoCreateDto.Nombre" class="form-control" />
+                <span asp-validation-for="productoCreateDto.Nombre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Precio</label>
+                <input asp-for="productoCreateDto.Precio" class="form-control" />
+                <span asp-validation-for="productoCreateDto.Precio" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Cantidad disponible</label>
+                <input asp-for="productoCreateDto.Cantidad" class="form-control" />
+                <span asp-validation-for="productoCreateDto.Cantidad" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Categoria</label>
+                <input asp-for="productoCreateDto.Categoria" class="form-control" />
+                <span asp-validation-for="productoCreateDto.Categoria" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label class="form-label">Descripcion</label>
+                <input asp-for="productoCreateDto.Descripcion" class="form-control" />
+                <span asp-validation-for="productoCreateDto.Descripcion" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <label>Imagen</label>
+                <input type="file" accept="image/png, image/gif, image/jpeg" name="imagenes" id="imagenId" class="form-control" />
+                <span asp-validation-for="productoCreateDto.ImageFile" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <div class="d-grid gap-2 d-md-block mt-2">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a asp-controller="AdministracionEmpleados" asp-action="ListarEmpleados" class="btn btn-success">Regresar</a>
+        </div>
+
+
+    </div>
+
+</form>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
